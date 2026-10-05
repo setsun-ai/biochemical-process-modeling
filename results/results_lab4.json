@@ -1,0 +1,240 @@
+{
+  "lab4": {
+    "assignments": {
+      "example-Ledakrin.csv": 3,
+      "example-Symadex.csv": 4,
+      "example-C-2045.csv": 5
+    },
+    "pca_summary": [
+      {
+        "plik": "example-Ledakrin.csv",
+        "liczba form": 3,
+        "PC1 [%]": 83.536238,
+        "PC2 [%]": 16.420426,
+        "PC3 [%]": 0.042872,
+        "PC4 [%]": 0.000164,
+        "suma wybranych PC [%]": 99.999536
+      },
+      {
+        "plik": "example-Symadex.csv",
+        "liczba form": 4,
+        "PC1 [%]": 94.630053,
+        "PC2 [%]": 4.446861,
+        "PC3 [%]": 0.918021,
+        "PC4 [%]": 0.00463,
+        "suma wybranych PC [%]": 99.999565
+      },
+      {
+        "plik": "example-C-2045.csv",
+        "liczba form": 5,
+        "PC1 [%]": 96.620722,
+        "PC2 [%]": 2.810982,
+        "PC3 [%]": 0.49067,
+        "PC4 [%]": 0.059331,
+        "suma wybranych PC [%]": 99.998653
+      }
+    ],
+    "pka_summary": [
+      {
+        "plik": "example-Ledakrin.csv",
+        "liczba form": 3,
+        "SSE pKa": 0.076896,
+        "optymalizacja OK": true,
+        "pKa1": 6.244877,
+        "pKa2": 9.322979,
+        "LOO mean pKa1": 6.244948,
+        "LOO SD pKa1": 0.003008,
+        "LOO mean pKa2": 9.614155,
+        "LOO SD pKa2": 1.401676,
+        "pKa3": null,
+        "LOO mean pKa3": null,
+        "LOO SD pKa3": null,
+        "pKa4": null,
+        "LOO mean pKa4": null,
+        "LOO SD pKa4": null
+      },
+      {
+        "plik": "example-Symadex.csv",
+        "liczba form": 4,
+        "SSE pKa": 2.105245,
+        "optymalizacja OK": true,
+        "pKa1": 2.805845,
+        "pKa2": 7.628934,
+        "LOO mean pKa1": 2.807483,
+        "LOO SD pKa1": 0.022985,
+        "LOO mean pKa2": 7.627093,
+        "LOO SD pKa2": 0.041666,
+        "pKa3": 9.606932,
+        "LOO mean pKa3": 9.609376,
+        "LOO SD pKa3": 0.019639,
+        "pKa4": null,
+        "LOO mean pKa4": null,
+        "LOO SD pKa4": null
+      },
+      {
+        "plik": "example-C-2045.csv",
+        "liczba form": 5,
+        "SSE pKa": 1.252685,
+        "optymalizacja OK": true,
+        "pKa1": 2.429267,
+        "pKa2": 6.120334,
+        "LOO mean pKa1": 2.431733,
+        "LOO SD pKa1": 0.023683,
+        "LOO mean pKa2": 6.119807,
+        "LOO SD pKa2": 0.008296,
+        "pKa3": 7.158697,
+        "LOO mean pKa3": 7.159156,
+        "LOO SD pKa3": 0.027678,
+        "pKa4": 9.628248,
+        "LOO mean pKa4": 9.61525,
+        "LOO SD pKa4": 0.176412
+      }
+    ],
+    "files": {
+      "example-Ledakrin.csv": {
+        "n_forms": 3,
+        "initial_pKas": [
+          4.5,
+          8.0
+        ],
+        "pKas": [
+          6.244876992128221,
+          9.32297910853281
+        ],
+        "pka_sse": 0.0768957868090356,
+        "loo_mean": [
+          6.244948114886314,
+          9.614154632194811
+        ],
+        "loo_sd": [
+          0.00300835963164454,
+          1.4016758926788584
+        ],
+        "evr_first6": [
+          0.8353623787811529,
+          0.1642042622153127,
+          0.00042872346519979253,
+          1.6362283299029336e-06,
+          6.241362458520033e-07,
+          4.3760598966568216e-07
+        ],
+        "fraction_min": 0.0,
+        "fraction_max": 0.9638691448200492,
+        "fraction_sum_min": 1.0,
+        "fraction_sum_max": 1.0,
+        "n_clamped": 5,
+        "decomposition_success": false,
+        "decomposition_message": "Maximum number of iterations has been exceeded.",
+        "fractions_csv": "/mnt/data/mpb_generated/data/lab4_example-Ledakrin_fractions_3form.csv",
+        "pka_plot": "/mnt/data/mpb_generated/figures/lab4_example-Ledakrin_pka_fit.png",
+        "pka_report": "/mnt/data/mpb_generated/logs/lab4_example-Ledakrin_pka_report.txt"
+      },
+      "example-Symadex.csv": {
+        "n_forms": 4,
+        "initial_pKas": [
+          3.5,
+          6.5,
+          9.0
+        ],
+        "pKas": [
+          2.805845013794175,
+          7.628933917516523,
+          9.606932216551147
+        ],
+        "pka_sse": 2.105245445405859,
+        "loo_mean": [
+          2.807482755484344,
+          7.627092725415979,
+          9.609375542501818
+        ],
+        "loo_sd": [
+          0.02298453680701456,
+          0.041665692729247285,
+          0.019638638044254683
+        ],
+        "evr_first6": [
+          0.9463005309084088,
+          0.04446860569711432,
+          0.009180205538201565,
+          4.63048225011844e-05,
+          3.1519351658270885e-06,
+          3.439384630735145e-07
+        ],
+        "fraction_min": 0.0,
+        "fraction_max": 0.9999923959491185,
+        "fraction_sum_min": 0.9999999999999999,
+        "fraction_sum_max": 1.0000000000000002,
+        "n_clamped": 3,
+        "decomposition_success": false,
+        "decomposition_message": "Maximum number of iterations has been exceeded.",
+        "fractions_csv": "/mnt/data/mpb_generated/data/lab4_example-Symadex_fractions_4form.csv",
+        "pka_plot": "/mnt/data/mpb_generated/figures/lab4_example-Symadex_pka_fit.png",
+        "pka_report": "/mnt/data/mpb_generated/logs/lab4_example-Symadex_pka_report.txt"
+      },
+      "example-C-2045.csv": {
+        "n_forms": 5,
+        "initial_pKas": [
+          2.5,
+          5.0,
+          7.5,
+          9.5
+        ],
+        "pKas": [
+          2.429266622500753,
+          6.120333651883526,
+          7.15869692033727,
+          9.628248173784113
+        ],
+        "pka_sse": 1.2526852972991527,
+        "loo_mean": [
+          2.431733482712006,
+          6.119807450541954,
+          7.1591557236022,
+          9.61525034018319
+        ],
+        "loo_sd": [
+          0.023682949256864996,
+          0.008295767990386099,
+          0.027677967437802254,
+          0.1764121742742191
+        ],
+        "evr_first6": [
+          0.9662072203335125,
+          0.028109816841133166,
+          0.0049067007187204885,
+          0.0005933147079155353,
+          0.00016947911946193668,
+          9.644267591615061e-06
+        ],
+        "fraction_min": 1.3582115668264727e-05,
+        "fraction_max": 0.8342240056917929,
+        "fraction_sum_min": 0.9999999999999998,
+        "fraction_sum_max": 1.0000000000000002,
+        "n_clamped": 0,
+        "decomposition_success": false,
+        "decomposition_message": "Maximum number of iterations has been exceeded.",
+        "fractions_csv": "/mnt/data/mpb_generated/data/lab4_example-C-2045_fractions_5form.csv",
+        "pka_plot": "/mnt/data/mpb_generated/figures/lab4_example-C-2045_pka_fit.png",
+        "pka_report": "/mnt/data/mpb_generated/logs/lab4_example-C-2045_pka_report.txt"
+      }
+    },
+    "figures": [
+      "/mnt/data/mpb_generated/figures/lab4_example-Ledakrin_scree.png",
+      "/mnt/data/mpb_generated/figures/lab4_example-Ledakrin_fractions_3form.png",
+      "/mnt/data/mpb_generated/figures/lab4_example-Ledakrin_geometry_3form.png",
+      "/mnt/data/mpb_generated/figures/lab4_example-Ledakrin_pka_fit.png",
+      "/mnt/data/mpb_generated/figures/lab4_example-Symadex_scree.png",
+      "/mnt/data/mpb_generated/figures/lab4_example-Symadex_fractions_4form.png",
+      "/mnt/data/mpb_generated/figures/lab4_example-Symadex_geometry_4form_static.png",
+      "/mnt/data/mpb_generated/figures/lab4_example-Symadex_pka_fit.png",
+      "/mnt/data/mpb_generated/figures/lab4_example-C-2045_scree.png",
+      "/mnt/data/mpb_generated/figures/lab4_example-C-2045_fractions_5form.png",
+      "/mnt/data/mpb_generated/figures/lab4_example-C-2045_geometry_5form.txt",
+      "/mnt/data/mpb_generated/figures/lab4_example-C-2045_pka_fit.png",
+      "/mnt/data/mpb_generated/figures/lab4_pca_evr_summary.png"
+    ],
+    "technical_notes": [
+      "Dla pliku 5-formowego użyto n_starts=1 i maxiter=1000 w funkcji general_simplex, ponieważ domyślne 20000 było zbyt kosztowne czasowo; nie zmieniono modelu geometrycznego ani funkcji celu."
+    ]
+  }
+}

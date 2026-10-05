@@ -1,0 +1,316 @@
+{
+  "lab3": {
+    "parameters": {
+      "CSTR_AP_true_k": 0.3,
+      "CSTR_AP_D": 0.2,
+      "CSTR_ABC_k1": 0.4,
+      "CSTR_ABC_k2": 0.15,
+      "CSTR_ABC_D": 0.05,
+      "bio_mu_max": 0.5,
+      "bio_K_S": 0.5,
+      "bio_D": 0.2
+    },
+    "part1": {
+      "ap_steady_table": [
+        {
+          "k [1/h]": 0.1,
+          "tau [h]": 1,
+          "D [1/h]": 1.0,
+          "X_A": 0.09091,
+          "C_A* [mol/L]": 0.90909,
+          "C_P* [mol/L]": 0.09091
+        },
+        {
+          "k [1/h]": 0.1,
+          "tau [h]": 5,
+          "D [1/h]": 0.2,
+          "X_A": 0.33333,
+          "C_A* [mol/L]": 0.66667,
+          "C_P* [mol/L]": 0.33333
+        },
+        {
+          "k [1/h]": 0.1,
+          "tau [h]": 10,
+          "D [1/h]": 0.1,
+          "X_A": 0.5,
+          "C_A* [mol/L]": 0.5,
+          "C_P* [mol/L]": 0.5
+        },
+        {
+          "k [1/h]": 0.1,
+          "tau [h]": 20,
+          "D [1/h]": 0.05,
+          "X_A": 0.66667,
+          "C_A* [mol/L]": 0.33333,
+          "C_P* [mol/L]": 0.66667
+        },
+        {
+          "k [1/h]": 0.3,
+          "tau [h]": 1,
+          "D [1/h]": 1.0,
+          "X_A": 0.23077,
+          "C_A* [mol/L]": 0.76923,
+          "C_P* [mol/L]": 0.23077
+        },
+        {
+          "k [1/h]": 0.3,
+          "tau [h]": 5,
+          "D [1/h]": 0.2,
+          "X_A": 0.6,
+          "C_A* [mol/L]": 0.4,
+          "C_P* [mol/L]": 0.6
+        },
+        {
+          "k [1/h]": 0.3,
+          "tau [h]": 10,
+          "D [1/h]": 0.1,
+          "X_A": 0.75,
+          "C_A* [mol/L]": 0.25,
+          "C_P* [mol/L]": 0.75
+        },
+        {
+          "k [1/h]": 0.3,
+          "tau [h]": 20,
+          "D [1/h]": 0.05,
+          "X_A": 0.85714,
+          "C_A* [mol/L]": 0.14286,
+          "C_P* [mol/L]": 0.85714
+        },
+        {
+          "k [1/h]": 0.6,
+          "tau [h]": 1,
+          "D [1/h]": 1.0,
+          "X_A": 0.375,
+          "C_A* [mol/L]": 0.625,
+          "C_P* [mol/L]": 0.375
+        },
+        {
+          "k [1/h]": 0.6,
+          "tau [h]": 5,
+          "D [1/h]": 0.2,
+          "X_A": 0.75,
+          "C_A* [mol/L]": 0.25,
+          "C_P* [mol/L]": 0.75
+        },
+        {
+          "k [1/h]": 0.6,
+          "tau [h]": 10,
+          "D [1/h]": 0.1,
+          "X_A": 0.85714,
+          "C_A* [mol/L]": 0.14286,
+          "C_P* [mol/L]": 0.85714
+        },
+        {
+          "k [1/h]": 0.6,
+          "tau [h]": 20,
+          "D [1/h]": 0.05,
+          "X_A": 0.92308,
+          "C_A* [mol/L]": 0.07692,
+          "C_P* [mol/L]": 0.92308
+        }
+      ],
+      "ap_dynamic_table": [
+        {
+          "D [1/h]": 0.05,
+          "tau [h]": 20.0,
+          "C_P(t_end) [mol/L]": 0.45808,
+          "X_A(t_end)": 0.85712,
+          "czas dojścia po skoku 5% [h]": 18.4808
+        },
+        {
+          "D [1/h]": 0.2,
+          "tau [h]": 5.0,
+          "C_P(t_end) [mol/L]": 0.3011,
+          "X_A(t_end)": 0.59994,
+          "czas dojścia po skoku 5% [h]": 16.64441
+        },
+        {
+          "D [1/h]": 0.5,
+          "tau [h]": 2.0,
+          "C_P(t_end) [mol/L]": 0.18744,
+          "X_A(t_end)": 0.37487,
+          "czas dojścia po skoku 5% [h]": 8.29716
+        }
+      ],
+      "abc_steady_Bmax_table": [
+        {
+          "wariant": "k1>k2",
+          "k1 [1/h]": 0.4,
+          "k2 [1/h]": 0.15,
+          "D_max num [1/h]": 0.24497,
+          "D_max sqrt(k1*k2) [1/h]": 0.24495,
+          "C_B,max* [mol/L]": 0.38465,
+          "tau przy max [h]": 4.08215
+        },
+        {
+          "wariant": "k1<k2",
+          "k1 [1/h]": 0.15,
+          "k2 [1/h]": 0.4,
+          "D_max num [1/h]": 0.24497,
+          "D_max sqrt(k1*k2) [1/h]": 0.24495,
+          "C_B,max* [mol/L]": 0.14424,
+          "tau przy max [h]": 4.08215
+        },
+        {
+          "wariant": "k1≈k2",
+          "k1 [1/h]": 0.3,
+          "k2 [1/h]": 0.3,
+          "D_max num [1/h]": 0.30091,
+          "D_max sqrt(k1*k2) [1/h]": 0.3,
+          "C_B,max* [mol/L]": 0.25,
+          "tau przy max [h]": 3.32321
+        }
+      ],
+      "abc_dynamic_summary": {
+        "t_Bmax [h]": 20.243204577968527,
+        "C_Bmax [mol/L]": 0.21516659865221666,
+        "C_A_end": 0.05556738336583179,
+        "C_B_end": 0.11159521108510317,
+        "C_C_end": 0.3627983984706416
+      }
+    },
+    "data_files": {
+      "CSTR_AP": "/mnt/data/mpb_generated/data/lab3_CSTR_AP.csv",
+      "CSTR_ABC_B": "/mnt/data/mpb_generated/data/lab3_CSTR_ABC_B.csv",
+      "CSTR_ABC_C": "/mnt/data/mpb_generated/data/lab3_CSTR_ABC_C.csv",
+      "bioreactor": "/mnt/data/mpb_generated/data/lab3_bioreactor_XSP.csv",
+      "bioreactor_high_error": "/mnt/data/mpb_generated/data/lab3_bioreactor_XSP_high_error.csv"
+    },
+    "fit_CSTR_AP": {
+      "k_fit": 0.30125888425712294,
+      "SSE": 0.007537067082620337,
+      "bootstrap": {
+        "n": 300,
+        "mean": 0.30370711102074743,
+        "median": 0.3041231036625225,
+        "sd": 0.011773803546296778,
+        "ci95": [
+          0.28181166384220335,
+          0.32813861110688053
+        ]
+      },
+      "figures": [
+        "/mnt/data/mpb_generated/figures/lab3_CSTR_AP_fit.png"
+      ]
+    },
+    "fit_CSTR_ABC_B": {
+      "k1_fit": 0.4068424751364469,
+      "k2_fit": 0.14911501430732077,
+      "SSE": 0.0017275230137014973,
+      "bootstrap": {
+        "k1": {
+          "n": 200,
+          "mean": 0.4134348493281815,
+          "median": 0.408496321792349,
+          "sd": 0.05774475113848173,
+          "ci95": [
+            0.3175901516703068,
+            0.539751872028943
+          ]
+        },
+        "k2": {
+          "n": 200,
+          "mean": 0.14981494522008995,
+          "median": 0.14931387260532775,
+          "sd": 0.005456833876081577,
+          "ci95": [
+            0.13961033797087785,
+            0.1623480606264662
+          ]
+        }
+      },
+      "figures": [
+        "/mnt/data/mpb_generated/figures/lab3_CSTR_ABC_B_fit.png",
+        "/mnt/data/mpb_generated/figures/lab3_CSTR_ABC_B_bootstrap_scatter.png"
+      ]
+    },
+    "fit_CSTR_ABC_C": {
+      "k1_fit": 0.39662568907075274,
+      "k2_fit": 0.13617700241436614,
+      "SSE": 0.00622746820685894,
+      "bootstrap": {
+        "k1": {
+          "n": 200,
+          "mean": 0.980175185988966,
+          "median": 0.4308696118439327,
+          "sd": 1.4258422434799571,
+          "ci95": [
+            0.20410064535344724,
+            4.999999999999962
+          ]
+        },
+        "k2": {
+          "n": 200,
+          "mean": 0.14735545653720628,
+          "median": 0.13269540391855567,
+          "sd": 0.04420777025388287,
+          "ci95": [
+            0.09191250887180831,
+            0.21718458400150512
+          ]
+        }
+      },
+      "figures": [
+        "/mnt/data/mpb_generated/figures/lab3_CSTR_ABC_C_fit.png",
+        "/mnt/data/mpb_generated/figures/lab3_CSTR_ABC_C_bootstrap_scatter.png"
+      ]
+    },
+    "fit_bioreactor": {
+      "mu_max_fit": 0.5488219938062574,
+      "K_S_fit": 1.870395910821589,
+      "SSE_scaled": 0.1030830426891193,
+      "Dcrit_before": 0.5018857418440216,
+      "Dcrit_after": 0.5166129677289999,
+      "bootstrap": {
+        "mu_max": {
+          "n": 20,
+          "mean": 0.5488131303367304,
+          "median": 0.5488221221918588,
+          "sd": 0.00011517276014485287,
+          "ci95": [
+            0.548585523656189,
+            0.5489576064690715
+          ]
+        },
+        "K_S": {
+          "n": 20,
+          "mean": 1.8701861708675824,
+          "median": 1.8705796960211503,
+          "sd": 0.0023263648659892578,
+          "ci95": [
+            1.8641280052806242,
+            1.872006165894822
+          ]
+        },
+        "n": 20
+      },
+      "figures": [
+        "/mnt/data/mpb_generated/figures/lab3_bioreactor_default_fit_XSP.png",
+        "/mnt/data/mpb_generated/figures/lab3_bioreactor_default_bootstrap_mu_KS.png"
+      ]
+    },
+    "fit_bioreactor_high_error": {
+      "mu_max_fit": 0.4998907798326963,
+      "K_S_fit": 0.8203087827001889,
+      "SSE_scaled": 0.18875389980252041,
+      "Dcrit_before": 0.48019535641859523,
+      "Dcrit_after": 0.4865857607305587,
+      "bootstrap": {
+        "mu_max": {},
+        "K_S": {},
+        "n": 0
+      },
+      "figures": [
+        "/mnt/data/mpb_generated/figures/lab3_bioreactor_high_error_fit_XSP.png",
+        "/mnt/data/mpb_generated/figures/lab3_bioreactor_high_error_bootstrap_mu_KS.png"
+      ]
+    },
+    "figures": [
+      "/mnt/data/mpb_generated/figures/lab3_AP_steady_conversion.png",
+      "/mnt/data/mpb_generated/figures/lab3_AP_dynamic_D_variants.png",
+      "/mnt/data/mpb_generated/figures/lab3_ABC_steady_Bmax.png",
+      "/mnt/data/mpb_generated/figures/lab3_ABC_dynamic_default.png",
+      "/mnt/data/mpb_generated/figures/lab3_bioreactor_washout_D_variants.png"
+    ]
+  }
+}

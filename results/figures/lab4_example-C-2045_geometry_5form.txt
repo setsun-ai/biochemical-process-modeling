@@ -1,0 +1,1 @@
+Geometry plot skipped: dim = 4. Direct geometric visualization is only implemented for dim <= 3.
