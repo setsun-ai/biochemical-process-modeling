@@ -85,7 +85,6 @@ None of the data are sensitive.
 - **My decisions:**
   - running all exercises in one batch driver with automatic paths,
   - bootstrap confidence intervals and AIC/BIC model comparison throughout,
-  - the high-noise bioreactor variant,
   - the interpretation in the reports.
 
   Changes to the course scripts were technical only (automatic file paths, saving figures, analytical solutions of the same linear ODEs to speed up bootstrapping). The models and equations were not changed.
